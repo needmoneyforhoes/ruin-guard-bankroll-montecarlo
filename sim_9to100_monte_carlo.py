@@ -15,7 +15,7 @@ import random
 from collections import defaultdict
 
 
-SHADOW_LOG = '/home/polybot/polymarket-bot/data/shadow_predictor_log.jsonl'
+SHADOW_LOG = 'data/shadow_predictor_log.jsonl'
 
 
 def load_markets():

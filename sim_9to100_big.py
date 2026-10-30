@@ -69,8 +69,8 @@ def load_markets(max_markets=500, seed=42):
     """Load up to max_markets race_test logs."""
     paths = set()
     for pattern in [
-        '/home/polybot/polymarket-bot/data/quant_bots_logs_replay/race_test_btc-updown-5m-*.log',
-        '/home/polybot/polymarket-bot/data/race_test_btc-updown-5m-*.log',
+        'data/quant_bots_logs_replay/race_test_btc-updown-5m-*.log',
+        'data/race_test_btc-updown-5m-*.log',
     ]:
         for p in glob.glob(pattern):
             paths.add(p)

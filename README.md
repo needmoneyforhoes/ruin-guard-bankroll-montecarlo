@@ -40,3 +40,8 @@ Reads recorded outputs from the private polymarket-data repo. Without the logs t
 Repoint the `PATH_PATTERN` / `SHADOW_LOG` constants if your layout differs. Pure offline; no wallet, keys, or network.
 
 Models real-money staking. Validate any policy before trusting it live.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/ruin-guard-bankroll-montecarlo/issues/new). Pull requests are welcome too.
